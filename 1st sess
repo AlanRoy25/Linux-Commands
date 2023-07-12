@@ -1,0 +1,26 @@
+A Linux terminal, also called a shell or command line, provides a text-based input/output (I/O) interface between users and the kernel of a computer system.
+Terminal emulators, also known as command-line terminals (CLI), allow the use of text with the help of a GUI (Graphical User Interface).
+
+Shell Types : BASH (Bourne Again Shell), ksh, Tcsh/csh , Zsh, Fish
+
+Prompt Description: It is the one that is shown first when opening a terminal. 
+It contains the username, current working directory, and hostname.
+
+Commands:   $: USER 
+#- root 
+[~]: Home directory (default folder) 
+.Bashrc: A Bash file saved in this format
+
+\d	Date (Mon Feb 6)
+\D{%Y-%m-%d}	Date (YYYY-MM-DD)
+\H	Full hostname
+\j	Number of jobs managed by the shell
+\n	Newline
+\r	Carriage return
+\s	Name of the shell
+\t	Current time 24-hour (HH:MM:SS)
+\T	Current time 12-hour (HH:MM:SS)
+\@	Current time
+\u	Current username
+\w	Full path of the current working directory
+
