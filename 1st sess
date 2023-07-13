@@ -23,4 +23,51 @@ Commands:   $: USER
 \@	Current time
 \u	Current username
 \w	Full path of the current working directory
+-------------------------------------------------------------------
+whoami-	Displays current username.
+id-	Returns users identity
+hostname-	Sets or prints the name of current host system.
+uname-	Prints basic information about the operating system name and system hardware.
+pwd-	Returns working directory name.
+ifconfig-	The ifconfig utility is used to assign or to view an address to a network interface and/or configure network interface parameters.
+ip-	Ip is a utility to show or manipulate routing, network devices, interfaces and tunnels.
+netstat-	Shows network status.
+ss-	Another utility to investigate sockets.
+ps-	Shows process status.
+who-	Displays who is logged in.
+env-	Prints environment or sets and executes command.
+lsblk-	Lists block devices.
+lsusb-	Lists USB devices
+lsof-	Lists opened files.
+lspci	-Lists PCI devices.
 
+curl - to transfer the date to another server.
+man - Manual
+h - help
+
+
+ls - List all the items in the directory
+ls -l : list all the items with more description of that files.
+
+drwxr-xr-x ---	Type and permissions
+2 --	Number of hard links to the file/directory
+cry0l1t3 --	Owner of the file/directory
+htbacademy---	Group owner of the file/directory
+4096---	Size of the file or the number of blocks used to store the directory information
+Nov 13 --17:37	Date and time
+Desktop--	Directory name
+
+----------------------------------------
+To find the hidden files in the directory we can use ls -la 
+hidden files start with dot command.
+
+*** TO find the index number of a file eg: (to understand how many bytes that file has the command ) 
+cd /etc - first step
+ls -i (i is basically the index number)
+*************************************
+
+To Edit any files indirectly without opening the file we can use command :
+{{{Vim or nano}}}
+
+Touch - To create an empty file
+mkdir- Make a new directory
