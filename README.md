@@ -1,2 +1,2 @@
-# Shell-commands
-This is all about shell scripting and its commands
+# Linux-commands
+This is all about Linux Commands and basics for ethical hackers.
