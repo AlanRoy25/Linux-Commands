@@ -135,4 +135,6 @@ n filter all the located files and specify that we only want to see the files th
 
 newermt 2020-03-03	: With this option, we set the date. Only files newer than the specified date will be presented.
 2>/dev/null	: This is a STDERR redirection to the 'null device', which we will come back to in the next section. This redirection ensures that no errors are displayed in the terminal. This redirection must not be an option of the 'find' command.
+---------------------------------------------
 
+sudo dpkg -i filename (for extracting the deb file )
